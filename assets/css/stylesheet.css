@@ -1,0 +1,141 @@
+html {
+    font-size: 16px;
+    font-family: Dirooz;
+    scroll-behavior: smooth;
+    /*margin: 30px 100px 30px 100px;*/
+}
+
+body{
+    margin: 0;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.indent-root{
+    margin:0 250px
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0 50px 0;
+}
+
+.avatar {
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 50%;
+}
+
+.description {
+    display: block;
+    margin-left: 20px;
+}
+
+.separator{
+    /*border-top: 1px dashed gray;*/
+    border-bottom: 1px dashed gray;
+    padding: 10px;
+}
+
+#post-grid {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.post-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    width: 100%;
+
+}
+
+.post-obj {
+    display: block;
+    position: relative;
+    width: 33.3%;
+
+
+}
+
+.post {
+    /*color: rgba(var(--fe0,0,55,107),1);*/
+    text-decoration: none;
+}
+
+/*.post-content {*/
+/*    !*background-color: rgba(var(--bb2,239,239,239),1);*!*/
+/*    display: block;*/
+/*    width: 100%;*/
+
+/*}*/
+
+.post-img-container {
+    display: block;
+    overflow: hidden;
+    /*padding-bottom: 100%;*/
+}
+
+.post-img {
+    object-fit: cover;
+    width: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.logo{
+    height: 30px;
+    /*width: 20px;*/
+    margin: 2px;
+    display: block;
+}
+
+.footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 30px ;
+    background-color: white;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: "Dirooz";
+    src: url("../fonts/Dirooz.ttf");
+    font-display: swap;
+}
+
+@media screen and (max-width: 600px) {
+    .header{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .description .detail{
+        text-align: center;
+    }
+    .separator{
+        text-align: center;
+    }
+    .indent-root{
+        margin: 0;
+    }
+}
