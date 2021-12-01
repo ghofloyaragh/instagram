@@ -132,6 +132,9 @@ body{
     .description .detail{
         text-align: center;
     }
+    .description{
+        margin: 0;
+    }
     .separator{
         text-align: center;
     }
