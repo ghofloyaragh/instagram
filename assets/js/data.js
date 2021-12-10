@@ -54,5 +54,17 @@ posts = [
         "aparat_iframe": "https://www.aparat.com/video/video/embed/videohash/C9H67/vt/frame",
         "ratio": "1:1",
         "caption": "دستگیره شماره ۸"
+    }, {
+        "id": 10,
+        "poster": "assets/images/webp/9.webp",
+        "aparat_iframe": "https://www.aparat.com/video/video/embed/videohash/Uq2EH/vt/frame",
+        "ratio": "1:1",
+        "caption": "دستگیره شماره ۹"
+    }, {
+        "id": 11,
+        "poster": "assets/images/webp/10.webp",
+        "aparat_iframe": "https://www.aparat.com/video/video/embed/videohash/cubep/vt/frame",
+        "ratio": "1:1",
+        "caption": "دستگیره شماره ۱۰"
     }
 ]
