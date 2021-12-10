@@ -1,3 +1,4 @@
+posts.reverse()
 n_post = posts.length
 row = Math.ceil(n_post / 3)
 divPostGrid = document.getElementById("post-grid")
@@ -5,7 +6,7 @@ for (r = 0; r < row; r++) {
     var divRow = document.createElement("div")
     divRow.className = "post-row"
     for (i = 0; i < 3; i++) {
-        if (r + i < n_post) {
+        if (r*3 + i < n_post) {
             target = posts[r*3+i]
             var divPostObj = document.createElement("div")
             divPostObj.className = "post-obj"

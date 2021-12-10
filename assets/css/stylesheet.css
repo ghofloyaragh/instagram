@@ -1,6 +1,6 @@
 html {
     font-size: 16px;
-    font-family: Dirooz;
+    font-family: Dirooz, sans-serif;
     scroll-behavior: smooth;
     /*margin: 30px 100px 30px 100px;*/
 }
@@ -48,7 +48,7 @@ body{
 
 #post-grid {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -56,7 +56,7 @@ body{
 
 .post-row {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: row;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
