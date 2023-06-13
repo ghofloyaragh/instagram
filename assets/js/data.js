@@ -44,7 +44,7 @@ posts = [
         "caption": "دستگیره شماره ۷"
     }, {
         "id": 8,
-        "poster": "assets/images/webp/mdf.jpg",
+        "poster": "assets/images/webp/mdf.JPG",
         "aparat_iframe": "https://www.aparat.com/video/video/embed/videohash/JeTGx/vt/frame",
         "ratio": "16:9",
         "caption":"مکانیزم قفل کمدی MDF | MDF furniture lock mechanism"
@@ -56,7 +56,7 @@ posts = [
         "caption":"مکانیزم قفل کمدی ۸۰۸ | 808 Drawer lock mechanism"
     }, {
         "id": 10,
-        "poster": "assets/images/webp/bufe.jpg",
+        "poster": "assets/images/webp/bufe.JPG",
         "aparat_iframe": "https://www.aparat.com/video/video/embed/videohash/0oqc7/vt/frame",
         "ratio": "16:9",
         "caption":"مکانیزم قفل بوفه | Antique Cabinet door lock mechanism"
